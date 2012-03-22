@@ -2,6 +2,8 @@
 
 	City skyline generator
 
+	https://github.com/JLemmetti/Skyline
+
 	Jurkka lemmetti - 2012
 	jurkka.lemmetti@gmail.com
 
