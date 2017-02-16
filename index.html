@@ -10,14 +10,20 @@
 
 		body {
 			background: #000;
+			font-family: 'helvetica';
+		}
 
+		h1 {
+			color: #eee;
+			text-align: center;
+			margin: 50px 0 0;
 		}
 
 		canvas {
 			display: block;
 			background: #000;
 			border: 2px solid #bbb;
-			margin: 200px auto 50px;
+			margin: 150px auto 50px;
 		}
 
 		#regenerate {
@@ -44,17 +50,29 @@
 			border: 1px solid #555;
 		}
 
+		p {
+			text-align: center;
+			margin: 40px 0;
+		}
+
+		a {
+			color: #eee;
+		}
 
 	</style>
 
 </head>
 <body>
 
+<h1>Skyline canvas demo</h1>
 
 <canvas id="city"></canvas>
 
 <input id="regenerate" type="button" value="Regenerate the skyline">
 
+<p>
+	<a href="https://github.com/JLemmetti/Skyline">Check the source on Github</a>
+</p>
 
 <script src="city.js"></script>
 
